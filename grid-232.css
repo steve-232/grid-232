@@ -96,7 +96,7 @@ table {
 	display: none;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1296px) {
 	/* Large */
 	.row { width: 90%; }
 	.col-large-1	{ width: 6.333333333%; }
