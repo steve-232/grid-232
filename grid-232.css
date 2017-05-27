@@ -38,6 +38,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a {
+	color: inherit;
+	transition: color 180ms linear 10ms;
+}
+p {
+	margin-bottom: 18px;
+}
+input {
+	width: 100%;
+	box-sizing: border-box;
+}
 
 /* Grid */
 .section {
