@@ -58,6 +58,11 @@ input {
 	width: 1280px;
 	margin: 0 auto;
 }
+.row-fluid {
+	width: 100%;
+}
+.clearfix:before,
+.clearfix:after,
 .section:before,
 .section:after,
 .row:before,
@@ -67,6 +72,7 @@ input {
 	clear: both;
 }
 .col {
+	min-height: 1px;
 	margin: 0 1%;
 	float: left;
 	box-sizing: border-box;
